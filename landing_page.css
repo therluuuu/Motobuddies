@@ -1,0 +1,14 @@
+.landing_page {
+    font-family: inter, sans-serif;
+    align-items: center;
+    height: 100%;
+    background-color: #405EA8;
+}
+
+.judul {
+    padding-top: 390px;
+    padding-bottom: 390px;
+    text-align: center;
+    font-weight: bold;
+}
+

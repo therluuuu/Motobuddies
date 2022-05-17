@@ -1,0 +1,15 @@
+.register{
+    background-color: #405EA8;
+}
+.button_daftar{
+    font-family: Work Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    align-items: center;
+    color: white;
+    background-color: #405EA8;
+    height: 38px;
+    width: 325px;
+    border-radius: 8px;
+}

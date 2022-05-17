@@ -1,0 +1,53 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    align-items: center;
+    font-family: Work Sans, sans-serif;
+}
+.gambar {
+    text-align: center;
+}
+.montir {
+    font-family: inter, sans-serif;
+    align-items: center;
+    background-color: #C23737;
+}
+
+.servis {
+    display: flex;
+    width: 100%;
+}
+    
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;
+     
+    display: inline-block;
+    border-radius: 8px;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  input[type=text]:focus, input[type=password]:focus {  
+    outline: none;  
+  }  
+
+  .tombol {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .button_montir {
+    font-family: Work Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    align-items: center;
+    color: white;
+    background-color: #C23737;
+    border-color: #C23737;
+    height: 38px;
+    width: 100%;
+    border-radius: 8px;
+    
+}

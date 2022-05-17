@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=SF+Pro+Text&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet" />
+</head>
+<title>Pemesanan Servis</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .v47_74 {
+    width: 375px;
+    height: 812px;
+    background: rgba(249, 250, 251, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .v47_122 {
+    width: 375px;
+    height: 89px;
+    background: url("../images/v47_122.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05000000074505806);
+    overflow: hidden;
+  }
+
+  .v47_123 {
+    width: 375px;
+    height: 89px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .v47_124 {
+    width: 339px;
+    height: 20px;
+    background: url("../images/v47_124.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    overflow: hidden;
+  }
+
+  .v47_125 {
+    width: 54px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: SF Pro Text;
+    font-weight: Semibold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .v47_135 {
+    width: 24px;
+    height: 11px;
+    background: url("../images/v47_135.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 315px;
+    overflow: hidden;
+  }
+
+  .v47_136 {
+    width: 22px;
+    height: 11px;
+    background: url("../images/v47_136.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.3499999940395355;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    overflow: hidden;
+  }
+
+  .v47_137 {
+    width: 1px;
+    height: 4px;
+    background: rgba(0, 0, 0, 1);
+    opacity: 0.4000000059604645;
+    position: absolute;
+    top: 3px;
+    left: 23px;
+  }
+
+  .v47_138 {
+    width: 18px;
+    height: 7px;
+    background: rgba(0, 0, 0, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    overflow: hidden;
+  }
+
+  .judul1 {
+    width: 148px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50px;
+    left: 114px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .back-box {
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 52px;
+    left: 18px;
+    overflow: hidden;
+  }
+
+  .back {
+    width: 16px;
+    height: 14px;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+  }
+
+  .v51_5 {
+    width: 375px;
+    height: 162px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 94px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05000000074505806);
+    overflow: hidden;
+  }
+
+  .judul2 {
+    width: 87px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 108px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .isi2 {
+    width: 79px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 135px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .dealer {
+    width: 148px;
+    color: rgba(66, 66, 66, 1);
+    position: absolute;
+    top: 156px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .dealer-box {
+    width: 13px;
+    height: 13px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 157px;
+    left: 333px;
+    overflow: hidden;
+  }
+
+  .dealer1 {
+    width: 10px;
+    height: 10px;
+    background: url("../images/v51_14.png");
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    cursor: pointer;
+  }
+
+  .jadwal {
+    width: 81px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 193px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .pilih-jadwal {
+    width: 76px;
+    color: rgba(66, 66, 66, 1);
+    position: absolute;
+    top: 214px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .jadwal-box {
+    width: 13px;
+    height: 13px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 213px;
+    left: 333px;
+    overflow: hidden;
+  }
+
+  .jadwal1 {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .judul3 {
+    width: 102px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 279px;
+    left: 25px;
+    font-family: Work Sans;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .card1 {
+    width: 216px;
+    height: 93px;
+    background: url("../images/v51_95.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 306px;
+    left: 25px;
+    overflow: hidden;
+  }
+
+  .v51_75 {
+    width: 216px;
+    height: 93px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+  .judul-card1 {
+    width: 99px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 14px;
+    left: 39px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .isi-card1 {
+    width: 153px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 35px;
+    left: 39px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .detail-card1 {
+    width: 71px;
+    color: rgba(96, 109, 141, 1);
+    position: absolute;
+    top: 75px;
+    left: 16px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v51_90 {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    overflow: hidden;
+  }
+
+  .icon-box1 {
+    width: 7px;
+    height: 7px;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+
+  .icon1 {
+    width: 12px;
+    height: 13px;
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .card2 {
+    width: 216px;
+    height: 93px;
+    background: url("../images/v51_96.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 306px;
+    left: 248px;
+    overflow: hidden;
+  }
+
+  .v51_97 {
+    width: 216px;
+    height: 93px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+  .judul-card2 {
+    width: 100px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 14px;
+    left: 39px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: justified;
+  }
+
+  .isi-card2 {
+    width: 153px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 35px;
+    left: 39px;
+    font-family: Work Sans;
+    font-weight: Regular;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .detail-card2 {
+    width: 71px;
+    color: rgba(96, 109, 141, 1);
+    position: absolute;
+    top: 75px;
+    left: 16px;
+    font-family: Work Sans;
+    font-weight: SemiBold;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .box2 {
+    width: 16px;
+    height: 16px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    overflow: hidden;
+  }
+
+  .icon-box2 {
+    width: 7px;
+    height: 7px;
+    background: rgba(66, 66, 66, 1);
+    opacity: 1;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+
+  .icon2 {
+    width: 12px;
+    height: 13px;
+    background: rgba(66, 66, 66, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+  }
+
+  .name {
+    color: #fff;
+  }
+
+  .form-keluhan {
+    width: 325px;
+    height: 180px;
+    background: url("../images/v51_107.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 422px;
+    left: 25px;
+    overflow: hidden;
+  }
+
+  .box-keluhan {
+    width: 325px;
+    height: 180px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+  }
+
+  .judul-form {
+    width: 93px;
+    color: rgba(57, 51, 63, 1);
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    font-family: Work Sans;
+    font-weight: Light;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .v51_110 {
+    width: 375px;
+    height: 74px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 738px;
+    left: 0px;
+    box-shadow: -5px 0px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+
+  .v51_113 {
+    width: 325px;
+    height: 48px;
+    background: url("../images/v51_113.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 751px;
+    left: 25px;
+    overflow: hidden;
+  }
+
+  .pesan-button {
+    width: 325px;
+    height: 48px;
+    background: rgba(64, 94, 168, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .pesan-span {
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 16px;
+    left: 134px;
+    font-family: Work Sans;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+</style>
+</head>
+
+<body>
+  <div class="pilihan_login">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card text-black" style="border-radius: 1rem; background-color: #F9FAFB;">
+            <div class="card-body p-5">
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <div class="v47_74">
+                  <div class="v47_122">
+                    <div class="v47_123"></div>
+                    <!-- <div class="v47_124">
+                                              <span class="v47_125">9:41</span>
+                                              <div class="name"></div>
+                                              <div class="name"></div> -->
+                    <!-- <div class="v47_135">
+                                                  <div class="v47_136"></div>
+                                                  <div class="v47_137"></div>
+                                                  <div class="v47_138"></div>
+                                              </div> -->
+                  </div>
+                  <span class="judul1">Layanan Servis</span>
+                  <div class="back-box">
+                    <div class="back"></div>
+                    <a href="">
+                      <img src="../pemesanan/eva_arrow-back-fill.png">
+                    </a>
+                  </div>
+                </div>
+                <div class="v51_5"></div>
+                <b><span class="judul2">Detail Servis</span></b>
+                <b><span class="judul3">Kategori servis</span></b>
+                <span class="isi2">Lokasi dealer</span>
+                <span class="dealer">Dealer MotoBuddies 02</span>
+                <div class="dealer-box">
+                  <div class="dealer1"></div>
+                  <b href="">
+                    <img src="../pemesanan/akar-icons_search.png">
+                  </b>
+                </div>
+                <span class="jadwal">Jadwal Servis</span>
+                <span class="pilih-jadwal">Pilih Jadwal</span>
+                <div class="jadwal-box">
+                  <div class="jadwal1"></div>
+                  <c href="">
+                    <img src="../pemesanan/uil_calender.png">
+                  </c>
+                </div>
+                <div class="name"></div>
+                <div class="name"></div>
+                <div class="card1">
+                  <div class="v51_75"></div>
+                  <b><span class="judul-card1">Servis Regular</span></b>
+                  <span class="isi-card1">Pemeriksaan regular dilakukan setiap 3-4 bulan</span>
+                  <a href="" class="detail-card1">Detail lengkap</a>
+                  <div class="box1">
+                    <div class="icon-box1"></div>
+                    <div class="icon1">
+                      <img src="../pemesanan/carbon_security-services.png">
+                    </div>
+                  </div>
+                  <div class="name"></div>
+                </div>
+                <div class="card2">
+                  <div class="v51_97"></div>
+                  <b><span class="judul-card2">Servis Lainnya</span></b>
+                  <span class="isi-card2">Pemeriksaan tambahan untuk motor anda</span>
+                  <a href="" class="detail-card2">Detail lengkap</a>
+
+                  <div class="box2">
+                    <div class="icon-box2"></div>
+                    <div class="icon2"></div>
+                  </div>
+                  <div class="name"></div>
+                </div>
+                <div class="form-keluhan">
+                  <form action="">
+                    <input type="textfield" name="keluhan" class="box-keluhan">
+                    <span class="judul-form">Keluhan anda</span>
+                  </form>
+
+                </div>
+                <div class="v51_110"></div>
+                <div class="v51_113">
+                  <d class="pesan-button">
+                    <form action="bayar2.html">
+                      <input type="submit" name="lanjut" class="pesan-button" value="LANJUT">
+                    </form>
+                    <span class="pesan-span">LANJUT</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html> <br /><br />

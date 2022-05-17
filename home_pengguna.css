@@ -1,0 +1,103 @@
+.home_pengguna{
+    background-color: #405EA8;
+}
+.gambar {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container_biru{
+    width: 100%;
+    height: 100px;
+    background-color: #405EA8;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.slide {
+    margin-bottom: 30px;
+}
+
+.isi_servis{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rekomendasi {
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(165, 165, 165, 0.2), 0 6px 20px 0 rgba(165, 165, 165, 0.2);
+}
+
+.kiri{
+    text-align: left;
+}
+
+.kanan{
+    text-align: right;
+}
+
+.judul_rekom_produk{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.kiri_rekom{
+    text-align: left;
+}
+
+.kanan_rekom{
+    text-align: right;
+}
+.rekom_produk{
+    display: flex;
+}
+
+.gambar_produk{
+    text-align: center;
+    padding: 15px;
+}
+.isi_produk{
+    padding-left: 15px;
+}
+.rekom_produk .kiri_produk{
+    width: 140px;
+    height: 172px;
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(165, 165, 165, 0.2), 0 6px 20px 0 rgba(165, 165, 165, 0.2);
+}
+.rekom_produk .tengah_produk{
+    width: 140px;
+    height: 172px;
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(165, 165, 165, 0.2), 0 6px 20px 0 rgba(165, 165, 165, 0.2);
+}
+.rekom_produk .kanan_produk{
+    width: 140px;
+    height: 172px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(165, 165, 165, 0.2), 0 6px 20px 0 rgba(165, 165, 165, 0.2);
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar .col{
+    padding-right: 25px;
+    align-items: center;
+}

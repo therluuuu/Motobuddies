@@ -1,0 +1,31 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    align-items: center;
+    font-family: Work Sans, sans-serif;
+}
+
+.layout {
+    font-family: inter, sans-serif;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 624px;
+    width: 332px;
+    background-color: white;
+}
+
+.bg {
+    font-family: inter, sans-serif;
+    align-items: center;
+    height: 812px;
+    width: 375px;
+    background-color: #F9FAFB;
+}
+.layout.regis {
+    display: flex;
+}
+.regis {
+    display: flex;
+}
